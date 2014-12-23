@@ -141,7 +141,7 @@ class Engine(EngineBase):
 
             RGB, GRAY
         """
-        image['options']['colorspace'] = colorspace
+        # image['options']['colorspace'] = colorspace
         return image
 
     def _crop(self, image, width, height, x_offset, y_offset):
